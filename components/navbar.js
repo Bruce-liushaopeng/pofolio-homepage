@@ -15,7 +15,7 @@
      useColorModeValue
  } from '@chakra-ui/react'
  import { HamburgerIcon, HumburgerIcon } from '@chakra-ui/icons'
-
+ import ThemeToggleButton   from './layouts/theme-toggle-button'
  const LinkItem = ({href, path, children}) => {
      const active = path === href
      const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
@@ -69,6 +69,7 @@
                 </Stack>
 
                 <Box flex={1} align="right">
+                    <ThemeToggleButton/>
                     <Box ml={2} display={{base: 'inline-block', md:'none' }}>
                         <Menu>
                             <MenuButton as={IconButton} icon={<HamburgerIcon />}    
@@ -82,8 +83,11 @@
                                     <MenuItem as={Link}>Works</MenuItem>
                                 </NextLink>
                                 <NextLink href="/posts" passHref>
-                                    <MenuItem as={Link} href="https://www.github.com">View Source</MenuItem>
+                                    <MenuItem as={Link}>Posts</MenuItem>
                                 </NextLink>
+                                
+                                <MenuItem as={Link} href="https://www.github.com">View Source</MenuItem>
+                                
                             </MenuList>
                         </Menu>
                     </Box>
