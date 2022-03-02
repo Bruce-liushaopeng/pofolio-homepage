@@ -1,4 +1,8 @@
-import { Container, Box, Heading, Image, useColorModeValue} from '@chakra-ui/react'
+import { ChevronRightIcon } from '@chakra-ui/icons'
+import NextLink from 'next/link'
+import { Button,Container, Box, Heading, Image, useColorModeValue} from '@chakra-ui/react'
+import Section from '../components/layouts/section'
+import Paragraph from '../components/paragraph'
 const Page = () =>{
     return (
         <Container>
@@ -16,6 +20,24 @@ const Page = () =>{
             </Box>
         </Box>
         </Box>
+        <Section delay={0.1}>
+            <Heading as="h3" variant="section-title">
+                About Me
+            </Heading>
+            <Paragraph>
+                Bruce is a Software Engineering student in Ottawa with passion for solving real-world problem with 
+                technology.
+                With interest in all sort of technologies from Frontend React, Android App development,
+                to backend development with NodeJs, express, and database management. 
+            </Paragraph>
+        <Box align="center" my={4}>
+            <NextLink href="/works">
+                <Button rightIcon={<ChevronRightIcon/>} colorScheme="teal">
+                   My portfolio
+                </Button> 
+            </NextLink>
+        </Box>
+        </Section>
         </Container>
     )
 }
