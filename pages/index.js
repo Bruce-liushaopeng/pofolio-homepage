@@ -3,6 +3,7 @@ import NextLink from 'next/link'
 import { Button,Container, Box, Heading, Image, useColorModeValue} from '@chakra-ui/react'
 import Section from '../components/layouts/section'
 import Paragraph from '../components/paragraph'
+import { BioSection, BioYear } from '../components/bio'
 const Page = () =>{
     return (
         <Container>
@@ -37,6 +38,43 @@ const Page = () =>{
                 </Button> 
             </NextLink>
         </Box>
+        </Section>
+        <Section delay={0.2}>
+            <Heading as="h3" variant="section-title">
+            Bio
+            </Heading>
+            <BioSection>
+                <BioYear>1999</BioYear>
+                Born in Guangdong, China.
+            </BioSection>
+            <BioSection>
+                <BioYear>2017</BioYear>
+                Start Bachelor degree in Software Engineering. 
+            </BioSection>
+            <BioSection>
+                <BioYear>2021</BioYear>
+                Internship at Environment and Climate Change as Data Scientist.(8 months)
+            </BioSection>
+            <BioSection>
+                <BioYear>2021</BioYear>
+                Internship at March Network as Software Developer.(4 months)
+            </BioSection>
+            <BioSection>
+                <BioYear>2022</BioYear>
+                Internship at Corning Technology Center as Software Developer.(4 months)
+            </BioSection>
+            
+
+        </Section>
+
+        <Section delay={0.3}>
+            <Heading as="h3" variant="section=title">
+             I ♥ 
+            </Heading>
+            <Paragraph>
+                Art, Rap, Sketch painting, Hiking, Biking, Gym, Machine Learning
+            </Paragraph>
+
         </Section>
         </Container>
     )
