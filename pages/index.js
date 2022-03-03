@@ -68,11 +68,11 @@ const Page = () =>{
         </Section>
 
         <Section delay={0.3}>
-            <Heading as="h3" variant="section=title">
-             I ♥ 
+            <Heading as="h3" variant="section-title">
+            I ♥ 
             </Heading>
             <Paragraph>
-                Art, Rap, Sketch painting, Hiking, Biking, Gym, Machine Learning
+            Art, Hip-hop, Sketch painting, Hiking, Biking, Gym, Kick-boxing
             </Paragraph>
 
         </Section>
