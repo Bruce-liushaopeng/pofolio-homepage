@@ -4,8 +4,10 @@ import { Button,Container, Box, Heading, Image, useColorModeValue} from '@chakra
 import Section from '../components/layouts/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
+import Layout from '../components/layouts/articles'
 const Page = () =>{
     return (
+        <Layout>
         <Container>
         <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
             Hello, I'm a software engineering student in Ottawa!
@@ -77,6 +79,7 @@ const Page = () =>{
 
         </Section>
         </Container>
+        </Layout>
     )
 }
 
