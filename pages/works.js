@@ -20,12 +20,12 @@ const Works = () => {
                 </Section>
                 <Section>
                     <WorkGridItem id="elevator" title="elevator" thumbnail={thumbElevator}>
-                        Elevator simulation can handles 22 floors and 4 elevator concurrently, controlled by a central scheduler to coordinate elevator cars with async remote procedure call
+                        Real-time elevator simulator that can handles request from 20 floors with 4 elevator cars controled by a central request scheduler.
                     </WorkGridItem>
                 </Section>
                 <Section >
                     <WorkGridItem id="StockTrading" title="StockTrading" thumbnail={thumbStockTrading}>
-                        A Stock Trading App for practice trading skill, generate flow chart based off today's stock price. User with registered account will
+                        A Stock Trading App for practice trading skill, generate flow chart based off today's stock price. User with registered account can see their trading history
                     </WorkGridItem>
                 </Section>
                 
