@@ -24,7 +24,7 @@ const Works = () => {
                     </WorkGridItem>
                 </Section>
                 <Section >
-                    <WorkGridItem id="StockTrading" title="StockTrading" thumbnail={thumbStockTrading}>
+                    <WorkGridItem id="stockTrading" title="StockTrading" thumbnail={thumbStockTrading}>
                         A Stock Trading App for practice trading skill, generate flow chart based off today's stock price. User with registered account can see their trading history
                     </WorkGridItem>
                 </Section>
