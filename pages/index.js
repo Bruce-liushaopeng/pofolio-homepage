@@ -1,10 +1,17 @@
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import NextLink from 'next/link'
-import { Button,Container, Box, Heading, Image, useColorModeValue} from '@chakra-ui/react'
+import { Button,Container,Icon, Box, Heading, Image, useColorModeValue,SimpleGrid, List,Link,ListItem} from '@chakra-ui/react'
 import Section from '../components/layouts/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/articles'
+import {
+    GoMarkGithub
+} from 'react-icons/go'
+import {
+    AiFillLinkedin
+} from 'react-icons/ai'
+import { GridItem } from '../components/grid-item'
 const Page = () =>{
     return (
         <Layout>
@@ -77,6 +84,27 @@ const Page = () =>{
             Art, Hip-hop, Sketch painting, Hiking, Biking, Gym, Kick-boxing
             </Paragraph>
 
+        </Section>
+        <Section delay={0.3}>
+            <Heading as="h3" variant="section-title">
+                On the web
+            </Heading>
+            <List>
+                <ListItem>
+                <Link href="https://github.com/Bruce-liushaopeng/porfolio-homepage" target="_blank">
+                    <Button variant="ghost" colorScheme={"teal"} leftIcon={<Icon as={GoMarkGithub}/>}>
+                        @Bruce-liushaopeng
+                    </Button>
+                </Link>
+                </ListItem>
+                <ListItem>
+                <Link href="https://www.linkedin.com/in/shaopeng-liu-953982195" target="_blank">
+                    <Button variant="ghost" colorScheme={"teal"} leftIcon={<Icon as={AiFillLinkedin}/>}>
+                        Linkedin
+                    </Button>
+                </Link>
+                </ListItem>
+            </List>
         </Section>
         </Container>
         </Layout>

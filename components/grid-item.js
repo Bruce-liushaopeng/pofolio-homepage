@@ -26,6 +26,8 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
     <NextLink href={`/works/${id}`}>
       <LinkBox cursor="pointer" style= {{borderRadius: '20px'}}>
         <Image
+          borderRadius="lg" 
+          w="full"
           src={thumbnail}
           alt={title}
           className="grid-item-thumbnail"

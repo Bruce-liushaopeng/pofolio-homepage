@@ -22,6 +22,14 @@ const Work = () => {
 
                 </List>
                 <List ml={4} my={4}></List>
+                <Badge colorScheme={"blue"} mb="3px">Instruction Page</Badge>
+                <WorkImage src='/images/works/risk_game2.png' alt="risk_game" />
+
+                <Badge colorScheme={"blue"} mb="3px">Attack Page</Badge>
+                <WorkImage src='/images/works/risk_game_1.png' alt="risk_game" />
+                
+                <Badge colorScheme={"blue"} mb="3px">AI report Page</Badge>
+                <WorkImage src='/images/works/risk_game_3.png' alt="risk_game" />
             </Container>
         </Layout>
     )

@@ -12,8 +12,12 @@
      MenuList,
      MenuButton,
      IconButton,
-     useColorModeValue
+     useColorModeValue,
+     Icon
  } from '@chakra-ui/react'
+ import {
+    GoMarkGithub
+} from 'react-icons/go'
  import { HamburgerIcon, HumburgerIcon } from '@chakra-ui/icons'
  import ThemeToggleButton   from './layouts/theme-toggle-button'
  const LinkItem = ({href, path, children}) => {
@@ -62,8 +66,9 @@
                     <LinkItem href="/works" path={path}>
                     Works
                     </LinkItem>
-                    <LinkItem href="/posts" path={path}>
-                        Posts
+
+                    <LinkItem href="/https://github.com/Bruce-liushaopeng/porfolio-homepage" leftIcon={<Icon as={GoMarkGithub}></Icon>} path={path}>
+                    Source
                     </LinkItem>
 
                 </Stack>
@@ -81,9 +86,6 @@
                                 </NextLink>
                                 <NextLink href="/works" passHref>
                                     <MenuItem as={Link}>Works</MenuItem>
-                                </NextLink>
-                                <NextLink href="/posts" passHref>
-                                    <MenuItem as={Link}>Posts</MenuItem>
                                 </NextLink>
                                 
                                 <MenuItem as={Link} href="https://www.github.com">View Source</MenuItem>
