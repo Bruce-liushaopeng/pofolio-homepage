@@ -81,11 +81,11 @@ const Page = () =>{
             </BioSection>
             <BioSection>
                 <BioYear>2021</BioYear>
-                Internship at Environment and Climate Change as Data Scientist.(8 months)
+                Internship at Environment and Climate Change Canada as Data Scientist.(8 months)
             </BioSection>
             <BioSection>
                 <BioYear>2021</BioYear>
-                Internship at March Network as Software Developer.(4 months)
+                Internship at March Networks as Software Developer.(4 months)
             </BioSection>
             <BioSection>
                 <BioYear>2022</BioYear>
