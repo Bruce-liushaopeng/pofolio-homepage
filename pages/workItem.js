@@ -9,7 +9,7 @@ const WorkItem =  ({companyName,children, jobTitle,href}) => {
     background: "white",
     color: "#086F83",
     fontWeight:"bold"
-  }} href={href} color="teal.800" isExternal="true" textUnderlineOffset={"8px"}>
+  }} href={href} color="teal.300" isExternal="true" textUnderlineOffset={"8px"}>
         <Heading as="h2" variant={"section-title"} >
             {companyName}
             

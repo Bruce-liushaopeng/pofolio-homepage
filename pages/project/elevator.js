@@ -23,10 +23,10 @@ const Work = () => {
                 </List>
                 <List ml={4} my={4}></List>
 
-                <Badge colorScheme={"blue"} mb="3px">Panel View</Badge>
+                <Badge colorScheme={"teal"} mb="3px">Panel View</Badge>
                 <WorkImage src='/images/works/elevator_1.png' alt="elevator" />
                 
-                <Badge colorScheme={"blue"} mb="3px">Console Log</Badge>
+                <Badge colorScheme={"teal"} mb="3px">Console Log</Badge>
                 <WorkImage src='/images/works/elevator_2.png' alt="elevator" />
             </Container>
         </Layout>

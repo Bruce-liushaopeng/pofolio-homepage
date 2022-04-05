@@ -53,16 +53,16 @@ const Page = () =>{
             Tech Stack
             </Heading>
            <List>
-               <Icon ml="9px" as={SiHtml5} boxSize="9" bg="none" color="teal.900"/>
-               <Icon ml="9px" as={SiCss3} boxSize="9" bg="none" color="teal.900"/>
-               <Icon ml="9px" as={SiJavascript} boxSize="9" bg="none" color="teal.900"/>
-               <Icon ml="9px" as={SiJava} boxSize="9" bg="none" color="teal.900"/>
-               <Icon ml="9px" as={FaPython} boxSize="9" bg="none" color="teal.900"/>
-               <Icon ml="9px" as={DiNodejs} boxSize="9" bg="none" color="teal.900"/>
-               <Icon ml="9px" as={SiKotlin} boxSize="9" bg="none" color="teal.900"/>
-               <Icon ml="9px" as={GrMysql} boxSize="9" bg="none" color="teal.900"/>
-               <Icon ml="9px" as={SiMongodb} boxSize="9" bg="none" color="teal.900"/>
-               <Icon ml="9px" as={SiJest} boxSize="9" bg="none" color="teal.900"/>
+               <Icon ml="9px" as={SiHtml5} boxSize="9" bg="none" color="teal.400"/>
+               <Icon ml="9px" as={SiCss3} boxSize="9" bg="none" color="teal.400"/>
+               <Icon ml="9px" as={SiJavascript} boxSize="9" bg="none" color="teal.400"/>
+               <Icon ml="9px" as={SiJava} boxSize="9" bg="none" color="teal.400"/>
+               <Icon ml="9px" as={FaPython} boxSize="9" bg="none" color="teal.400"/>
+               <Icon ml="9px" as={DiNodejs} boxSize="9" bg="none" color="teal.400"/>
+               <Icon ml="9px" as={SiKotlin} boxSize="9" bg="none" color="teal.400"/>
+               <Icon ml="9px" as={GrMysql} boxSize="9" bg="none" color="teal.400"/>
+               <Icon ml="9px" as={SiMongodb} boxSize="9" bg="none" color="teal.400"/>
+               <Icon ml="9px" as={SiJest} boxSize="9" bg="none" color="teal.400"/>
            </List>
             
         </Section>

@@ -1,8 +1,10 @@
 import { Container, Heading, ListItem, Text,Flex, UnorderedList} from "@chakra-ui/react"
 import {Gi3DGlasses} from "react-icons/gi"
 import WorkItem from "./workItem"
+import Layout from "../components/layouts/articles"
 const Work = () =>  {
     return(
+        <Layout title="work">
         <Container>
             <Heading marginTop="30px">
                 Work Experience
@@ -86,6 +88,7 @@ const Work = () =>  {
 
             
         </Container>
+        </Layout>
     
     )}
 
