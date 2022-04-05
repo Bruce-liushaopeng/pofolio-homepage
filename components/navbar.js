@@ -63,12 +63,12 @@
                     flexGrow={1}
                     mt={{ base:4, nmd:0}}
                 >
-                    <LinkItem href="/works" path={path}>
-                    Works
+                    <LinkItem href="/project" path={path}>
+                    Project
                     </LinkItem>
 
-                    <LinkItem href="/https://github.com/Bruce-liushaopeng/porfolio-homepage" leftIcon={<Icon as={GoMarkGithub}></Icon>} path={path}>
-                    Source
+                    <LinkItem href="/works" path={path}>
+                    Work
                     </LinkItem>
 
                 </Stack>
@@ -84,11 +84,14 @@
                                 <NextLink href="/" passHref>
                                     <MenuItem as={Link}>About</MenuItem>
                                 </NextLink>
+                                <NextLink href="/project" passHref>
+                                    <MenuItem as={Link}>Project</MenuItem>
+                                </NextLink>
                                 <NextLink href="/works" passHref>
-                                    <MenuItem as={Link}>Works</MenuItem>
+                                    <MenuItem as={Link}>Work</MenuItem>
                                 </NextLink>
                                 
-                                <MenuItem as={Link} href="https://www.github.com">View Source</MenuItem>
+                                <MenuItem as={Link} href="https://github.com/Bruce-liushaopeng/porfolio-homepage" >View Source</MenuItem>
                                 
                             </MenuList>
                         </Menu>
