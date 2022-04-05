@@ -43,7 +43,7 @@ const Work = () =>  {
                         Reducing component rendering time by adding logic to prevent duplicate backend fetching of the same content.             
                         </ListItem>
                         <ListItem ml="20px">
-                        Refactoring god-class by separating its functions to smaller classes and rewriting Jest test for deach class to ensure no function is broken.
+                        Refactoring god-class by separating its functions to smaller classes and rewriting Jest test for each class to ensure no function is broken.
                         </ListItem>
                     </UnorderedList>
 
