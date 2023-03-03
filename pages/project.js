@@ -5,6 +5,7 @@ import thumbStockTrading from '../public/images/works/stock_trading.png'
 import thumbRiskGame from '../public/images/works/risk_game.png'
 import thumbElevator from '../public/images/works/elevator.png'
 import thumbAmz from '../public/images/works/amz_0.png'
+import thumbBall from '../public/images/works/ball_0.png'
 const Works = () => {
     return (
         <Container>
@@ -32,6 +33,11 @@ const Works = () => {
                 <Section >
                     <WorkGridItem id="amz" title="amz" thumbnail={thumbAmz}>
                         Amazon-clone with real-user payment
+                    </WorkGridItem>
+                </Section>
+                <Section >
+                    <WorkGridItem id="ball" title="ball" thumbnail={thumbBall}>
+                        3-D ball Game, Arrow Keys control
                     </WorkGridItem>
                 </Section>
             </SimpleGrid>

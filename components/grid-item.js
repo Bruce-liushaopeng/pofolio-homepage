@@ -22,19 +22,25 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
 )
 
 export const WorkGridItem = ({ children, id, title, thumbnail }) => (
-  <Box w="100%" textAlign="center">
+  <Box w="100%" borderRadius="5px" textAlign="center" _hover={{
+    background: "grey",
+    borderRadius: "5px"
+}}>
     <NextLink href={`/project/${id}`}>
       <LinkBox cursor="pointer" style= {{borderRadius: '20px'}}>
-        <Image
-          borderRadius="lg" 
-          w="full"
-          src={thumbnail}
-          alt={title}
-          className="grid-item-thumbnail"
-          placeholder="blur"
-        />
+        <div borderRadius="lg">
+          <Image
+            borderRadius="lg" 
+            w="full"
+            src={thumbnail}
+            alt={title}
+            className="grid-item-thumbnail"
+            placeholder="blur"
+          />
+        </div>
+        
         <LinkOverlay href={`pages/works/${id}`}>
-          <Text mt={2} fontSize={20}>
+          <Text mt={2} fontSize={20} as='u' >
             {title}
           </Text>
         </LinkOverlay>

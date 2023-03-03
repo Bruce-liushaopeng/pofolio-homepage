@@ -41,7 +41,7 @@ const Page = () =>{
                 to backend development with NodeJs, express, and database management. 
             </Paragraph>
         <Box align="center" my={4}>
-            <NextLink href="/works">
+            <NextLink href="/project">
                 <Button rightIcon={<ChevronRightIcon/>} colorScheme="teal">
                    My portfolio
                 </Button> 
