@@ -59,11 +59,6 @@ const Works = () => {
             Use for practice trading skill with real stock price
           </WorkGridItem>
         </Section>
-        <Section>
-          <WorkGridItem id="amz" title="Amazon Clone" thumbnail={thumbAmz}>
-            Amazon-clone with real-user payment
-          </WorkGridItem>
-        </Section>
       </SimpleGrid>
       
     </Container>
