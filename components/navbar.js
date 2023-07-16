@@ -15,10 +15,7 @@
      useColorModeValue,
      Icon
  } from '@chakra-ui/react'
- import {
-    GoMarkGithub
-} from 'react-icons/go'
- import { HamburgerIcon, HumburgerIcon } from '@chakra-ui/icons'
+ import { HamburgerIcon } from '@chakra-ui/icons'
  import ThemeToggleButton   from './layouts/theme-toggle-button'
  const LinkItem = ({href, path, children}) => {
      const active = path === href

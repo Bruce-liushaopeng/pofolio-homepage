@@ -8,7 +8,6 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbStockTrading from '../public/images/works/stock_trading.png'
 import thumbRiskGame from '../public/images/works/risk_game.png'
 import thumbElevator from '../public/images/works/elevator.png'
-import thumbAmz from '../public/images/works/amz_0.png'
 import thumbBall from '../public/images/works/ball_0.png'
 import thumbEvase from '../public/images/works/evase_1.png'
 

@@ -15,6 +15,9 @@ const Work = () => {
                 <P>
                     3D Ball Game made with Three JS, with effort of implementing friction and acceleration. Using central controller to communicate balls' position and speed.
                 </P>
+                <P>
+                    try it yourself ! catch the yellow ball !!
+                </P>
                 <List ml={4} my={4}>
 
 

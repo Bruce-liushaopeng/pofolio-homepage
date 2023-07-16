@@ -31,7 +31,7 @@ const Page = () =>{
                 About Me
             </Heading>
             <Paragraph>
-            I am a Full-stack developer who loves reading tech blogs and explore all the fun within. Through school and working experience I have gained experience in multiple front-end frameworks including React, React Native, and Angular. Additionally, my knowledge of Spring Boot and Node.js enables me to efficiently create API endpoints. In terms of databases, I am skilled in designing data models and proficiently working with both NonSQL and SQL databases. 
+            I am a Full-stack developer who loves reading tech blogs and explore all the fun within. Through school and internships I have gained experience in multiple frameworks including React, React Native, and Angular. Additionally, my knowledge of Spring Boot and Node.js enables me to efficiently create API endpoints. In terms of databases, I am skilled in designing data models and proficiently working with both NonSQL and SQL databases. 
             </Paragraph>
         <Box align="center" my={4}>
             <NextLink href="/project">
