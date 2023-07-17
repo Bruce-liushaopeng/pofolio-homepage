@@ -84,7 +84,7 @@ const Page = () =>{
             </BioSection>
             <BioSection>
                 <BioYear>2022</BioYear>
-                Internship at Corning as front-end Developer.(4 months)
+                Internship at Corning as full-stack Developer.(4 months)
             </BioSection>
             <BioSection>
                 <BioYear>2023</BioYear>
