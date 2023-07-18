@@ -28,7 +28,7 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
     textAlign="center"
   >
     <NextLink href={`/project/${id}`}>
-      <LinkBox cursor="pointer" className={classes.linkBox}>
+      <LinkBox cursor="pointer" className={classes.linkBox} height={"280px"}>
           <Image
             width="700px"
             height="400px"

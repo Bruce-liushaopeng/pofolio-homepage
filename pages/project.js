@@ -10,6 +10,7 @@ import thumbRiskGame from '../public/images/works/risk_game.png'
 import thumbElevator from '../public/images/works/elevator.png'
 import thumbBall from '../public/images/works/ball_0.png'
 import thumbEvase from '../public/images/works/evase_1.png'
+import thumbWokeout from '../public/images/works/wokeout_01.png'
 
 const Works = () => {
   return (
@@ -19,6 +20,11 @@ const Works = () => {
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <Section>
+          <WorkGridItem id="wokeout" title="Wokeout Gym Goal tracker" thumbnail={thumbWokeout}>
+            Track your workout progress
+          </WorkGridItem>
+        </Section>
       <Section>
           <WorkGridItem id="evase" title="Evase Security Analyzer" thumbnail={thumbEvase}>
             Analysis for software attack entry points and provide analysis report
@@ -44,8 +50,7 @@ const Works = () => {
             title="Risk Game"
             thumbnail={thumbRiskGame}
           >
-            Multiplayer world conquoring game with save-load feature, maximum 6
-            players, and option of Human vs AI
+            Multiplayer world conquoring game, AI opponent available for challenge
           </WorkGridItem>
         </Section>
 
