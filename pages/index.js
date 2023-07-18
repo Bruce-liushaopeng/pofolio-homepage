@@ -109,7 +109,7 @@ const Page = () =>{
             </Heading>
             <List>
                 <ListItem>
-                <Link href="https://github.com/Bruce-liushaopeng/porfolio-homepage" target="_blank">
+                <Link href="https://github.com/Bruce-liushaopeng" target="_blank">
                     <Button variant="ghost" colorScheme={"teal"} leftIcon={<Icon as={GoMarkGithub}/>}>
                         @Bruce-liushaopeng
                     </Button>
