@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 const Work = () => {
     return (
-        <Layout title="riskGame">
+        <Layout title="3D Ball Game">
             <Container>
                 <Title>
                     3D Ball Game <Badge>2023</Badge>

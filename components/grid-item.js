@@ -44,7 +44,6 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
           <Text
             mt={2}
             fontSize={22}
-            fontFamily="Roboto Condensed"
             fontWeight="bold"
             _hover={{ color: "teal" }}
           >
