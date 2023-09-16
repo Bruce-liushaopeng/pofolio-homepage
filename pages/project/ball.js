@@ -35,7 +35,7 @@ const Work = () => {
 
                 <List ml={4} my={4}></List>
                 <Badge colorScheme={"teal"} mb="3px">Game </Badge>
-                <WorkImage src='/images/works/ball_1.png' alt="ball1" />
+                <WorkImage src='/images/works/ball/ball_1.png' alt="ball1" />
             </Container>
         </Layout>
     )

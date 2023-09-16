@@ -32,7 +32,7 @@ const Work = () => {
                 <WorkImage src='/gif/wokeout_03.gif' width='70%'/>
 
                 <Badge colorScheme={"teal"} mb="3px">Login Via Google</Badge>
-                <WorkImage src='/images/works/wokeout_04.png' width='75%'/>
+                <WorkImage src='/images/works/wokeout/wokeout_04.png' width='75%'/>
             </Container>
         </Layout>
     )

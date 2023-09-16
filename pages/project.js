@@ -5,13 +5,13 @@ import {
 } from '@chakra-ui/react'
 import Section from '../components/layouts/section'
 import { WorkGridItem } from '../components/grid-item'
-import thumbStockTrading from '../public/images/works/stock_trading.png'
-import thumbRiskGame from '../public/images/works/risk_game.png'
-import thumbElevator from '../public/images/works/elevator.png'
-import thumbBall from '../public/images/works/ball_0.png'
-import thumbEvase from '../public/images/works/evase_1.png'
-import thumbWokeout from '../public/images/works/wokeout_01.png'
-import calculator from '../public/images/works/calculator01.png'
+import thumbStockTrading from '../public/images/works/stock/stock_trading.png'
+import thumbRiskGame from '../public/images/works/risk/risk_game.png'
+import thumbElevator from '../public/images/works/elevator/elevator.png'
+import thumbBall from '../public/images/works/ball/ball_0.png'
+import thumbEvase from '../public/images/works/evase/evase_1.png'
+import thumbWokeout from '../public/images/works/wokeout/wokeout_01.png'
+import calculator from '../public/images/works/calculator/calculator01.png'
 
 const Works = () => {
   return (
@@ -21,6 +21,11 @@ const Works = () => {
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <Section>
+          <WorkGridItem id="e-commerce" title="E-Commerce" thumbnail={calculator}>
+            E-Commerce storefront and admin dashboard
+          </WorkGridItem>
+      </Section>
       <Section>
           <WorkGridItem id="calculator" title="Cloud Calculator" thumbnail={calculator}>
             Calculator with speedmeter 

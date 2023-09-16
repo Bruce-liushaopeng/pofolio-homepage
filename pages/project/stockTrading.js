@@ -23,7 +23,7 @@ const Work = () => {
                 </List>
                 <List ml={4} my={4}></List>
                 <Badge colorScheme={"teal"} mb="3px">Trading Page</Badge>
-                <WorkImage src='/images/works/StockTrading.png' alt="Stock Trading" />
+                <WorkImage src='/images/works/stock/StockTrading.png' alt="Stock Trading" />
             </Container>
         </Layout>
     )
