@@ -12,6 +12,7 @@ import thumbBall from '../public/images/works/ball/ball_0.png'
 import thumbEvase from '../public/images/works/evase/evase_1.png'
 import thumbWokeout from '../public/images/works/wokeout/wokeout_01.png'
 import calculator from '../public/images/works/calculator/calculator01.png'
+import eCommerce from '../public/images/works/e-commerce/banger.png'
 
 const Works = () => {
   return (
@@ -22,7 +23,7 @@ const Works = () => {
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
       <Section>
-          <WorkGridItem id="e-commerce" title="E-Commerce" thumbnail={calculator}>
+          <WorkGridItem id="e-commerce" title="E-Commerce" thumbnail={eCommerce}>
             E-Commerce storefront and admin dashboard
           </WorkGridItem>
       </Section>
